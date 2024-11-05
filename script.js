@@ -12,3 +12,10 @@ console.log(titles[1].innerText);
 titles[1].innerText = "see you later";
 
 console.log(titles[1].innerText);
+
+// create a new element
+let newParagraph = document.createElement(`p`)
+console.log(newParagraph);
+newParagraph.innerText = "the last of us with bananas!";
+
+document.body.appendChild(newParagraph);
